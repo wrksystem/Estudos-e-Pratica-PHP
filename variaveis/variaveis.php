@@ -7,6 +7,13 @@ $nome = "Hcode";
 $segundoNome = "CursosUdemy";
 //variável de nome composto, segunda palavra começa com letra maiúscula.
 
+$nomeCompleto = $nome ." ".$segundoNome;
+
+echo $nomeCompleto;
+
+exit;
+
+/*
 echo $nome;
 
 echo "<br/>";
@@ -15,5 +22,6 @@ unset($nome);
 //isso irá apagar os dados da variável, assim ela foi retirada da memoria.
 
 echo $nome;
+*/
 
 ?>
